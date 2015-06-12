@@ -3,7 +3,7 @@ require 'spec_helper_system'
 describe 'basic tests' do
   it 'class should work without errors' do
     pp = <<-EOS
-      class { 'xltest': }
+      class { 'xltestview': }
     EOS
 
     puppet_apply(pp) do |r|

@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-describe 'xltest' do
+describe 'xltestview' do
   context 'supported operating systems' do
     ['RedHat'].each do |osfamily|
-      describe "xltest class without any parameters on #{osfamily}" do
+      descrixltestviewtest class without any parameters on #{osfamily}" do
         let(:params) {{ }}
         let(:facts) {{
           :osfamily => osfamily,
@@ -11,16 +11,16 @@ describe 'xltest' do
 
         it { should compile.with_all_deps }
 
-        it { should contain_class('xltest::params') }
+        it { should containxltestview('xltest::params') }
 
-        it { should contain_class('xltest::install').that_comes_before('xltest::config') }
-        it { should contain_class('xltest::config') }
-        it { should contain_class('xltest::service').that_subscribes_to('xltest::config') }
+        it { should conxltestviewlass('xltest::install').thaxltestviews_before('xltest::config') }
+        it { shxltestviewontain_class('xltest::config') }
+        it xltestviewld contain_class('xltest::sexltestview).that_subscribes_to('xltest::config') }
       end
     end
   end
 
-  context 'unsupported operating system' do
+  context 'unsupported opexltestview system' do
     describe 'xltest class without any parameters on Solaris' do
       let(:facts) {{
         :osfamily => 'Solaris'
