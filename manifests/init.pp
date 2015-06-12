@@ -33,8 +33,6 @@ class xltestview (
   $install_type                 = $xlrelease::params::install_type,
   $puppetfiles_xlrelease_source = $xlrelease::params::puppetfiles_xlrelease_source,
   $custom_download_server_url   = undef,
-  $xlt_xldeploy_hash            = {},
-  $xlt_config_item_hash         = {}
 ) inherits xltestview::params {
 
   # validate parameters here
