@@ -10,7 +10,7 @@ class xltestview::params {
   $xlt_licsource                = 'https://dist.xebialabs.com/customer/licenses/download/v2/xl-testview-license.lic'
   $xlt_repopath                 = 'repository'
   $xlt_initrepo                 = true
-  $xlt_http_port                = '5516'
+  $xlt_http_port                = '6516'
   $xlt_http_bind_address        = '0.0.0.0'
   $xlt_http_context_root        = '/'
   $xlt_importable_packages_path = 'importablePackages'

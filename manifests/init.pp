@@ -39,7 +39,7 @@ class xltestview (
 
   # compose some variables based on the input to the class
   if ( $custom_download_server_url == undef ) {
-    $xlt_download_server_url = "https://dist.xebialabs.com/customer/xl-testview/server/${xlr_version}/xl-testview-server-${xlt_version}.zip"
+    $xlt_download_server_url = "https://dist.xebialabs.com/customer/xl-testview/server/${xlt_version}/xl-testview-server-${xlt_version}.zip"
   } else {
     $xlt_download_server_url = $custom_download_server_url
   }
