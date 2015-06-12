@@ -1,0 +1,10 @@
+name          'puppet-xltest'
+version       '0.0.1'
+source        'https://github.com/WianVos/puppet-xltest.git'
+author        'Wian Vos'
+license       'Apache 2.0'
+summary       'A module to install and configure xl-test'
+description   ''
+project_page  'https://github.com/WianVos/puppet-xltest'
+
+dependency 'puppetlabs/stdlib'
