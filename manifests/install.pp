@@ -29,7 +29,7 @@ class xltestview::install {
 
 
   #figure out the server install dir
-  $server_install_dir   = "${xlt_basedir}/xl-testview-${xlt_version}-server"
+  $server_install_dir   = "${xlt_basedir}/xl-testview-server-${xlt_version}"
 
   # Make this a private class
   if $caller_module_name != $module_name {
